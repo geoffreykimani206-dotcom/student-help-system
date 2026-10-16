@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Help System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Student Help System</h1>
+        <p>Your guide to solving student portal problems</p>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome, Student!</h2>
+            <p>
+                Having trouble with your student portal?
+                Choose a problem below and follow the steps
+                to find a solution.
+            </p>
+        </section>
+
+        <section class="help-options">
+            <h2>How can we help you?</h2>
+
+            <button onclick="startHelp('portal')">
+                Portal Not Working
+            </button>
+
+            <button onclick="startHelp('results')">
+                Examination Results
+            </button>
+
+            <button onclick="startHelp('fees')">
+                Fees and Payments
+            </button>
+
+            <button onclick="startHelp('registration')">
+                Unit Registration
+            </button>
+        </section>
+
+        <section id="help-area" class="help-area">
+            <h2>Student Support Guide</h2>
+            <p>Select a problem above to get started.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student Help System | Student Support</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
